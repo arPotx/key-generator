@@ -1,17 +1,17 @@
 ### API Server
-```http
-  https://key-verification-01a8d1.netlify.app/.netlify/functions/
+```
+https://key-verification-01a8d1.netlify.app/.netlify/functions/
 ```
 
 ### API Documentation
-- [Request key](#request-key-(token))
+- [Request key](#request-key)
 - [Generate key](#generate-key)
 - [Validate key](#validate-key)
 - [Optional settings](#optional-settings)
 
-### Request key (token)
-```http
-  POST /create-keygen-request
+### Request key
+```HTTP
+POST /create-keygen-request
 ```
 
 ### Example
@@ -32,8 +32,8 @@ if (data.token) {
 ```
 
 ### Generate key
-```http
-  POST /generate-key
+```HTTP
+POST /generate-key
 ```
 ```javascript
 const res2 = await fetch('https://key-verification-01a8d1.netlify.app/.netlify/functions/generate-key', {
@@ -45,8 +45,8 @@ const { key } = await res2.json();
 ```
 
 ### Validate key
-```http
-  POST /validate-key
+```HTTP
+POST /validate-key
 ```
 ```javascript
 const res3 = await fetch('https://key-verification-01a8d1.netlify.app/.netlify/functions/validate-key', {
