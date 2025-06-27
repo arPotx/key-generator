@@ -1,3 +1,15 @@
+# Secure key generator
+
+free and easy to use. My first program with backend development and API. Hope you like it!
+If you find bugs feel free to text me in discord or email me, thanks :)
+
+### Example I created
+you can also see the code and see how it works
+```
+https://keytest2-e6dd49.netlify.app/
+```
+
+
 ### API Server
 ```
 https://key-verification-01a8d1.netlify.app/.netlify/functions/
